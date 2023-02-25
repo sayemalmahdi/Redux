@@ -49,8 +49,11 @@ export default function App() {
     return (
         <div class="w-screen h-screen p-10 bg-gray-100 text-slate-700">
             <h1 class="max-w-md mx-auto text-center text-2xl font-bold">
-                Simple Counter Application
-            </h1>
+                Simple Counter Application <br />
+                {/* <span class="text-9xl font-semibold"> 1.3</span> <br /> */}
+                {/* <span class="text-xs text-gray-900 dark:text-black"> 1.3</span> <br /> */}
+                <span class="text-xs font-light text-gray-500 dark:text-gray-400">Git Branch 1.3</span> 
+            </h1>           
 
             <div class="max-w-md mx-auto mt-10 space-y-5">
                 {state.map((count) => (
