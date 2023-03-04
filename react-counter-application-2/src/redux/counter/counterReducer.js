@@ -2,7 +2,7 @@ import { INCREMENET, DECREMENT } from "./actionTypes";
 
 
 const initialState = {
-   value: 0,
+   value: 20,
 };
 
 
